@@ -9,7 +9,7 @@ public class Main {
 		ClassA cA = new ClassA(5);
 		try {
 			cA.error();
-			System.out.println("No peta!");
+			System.out.println("No peta!!!");
 		} catch (Exception ex) {
 			System.out.println("He petado 2!");
 			throw new Exception("Subo la ex", ex);
