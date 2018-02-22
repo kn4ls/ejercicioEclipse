@@ -10,6 +10,7 @@ public class Main {
 		try {
 			cA.error();
 			System.out.println("No peta!!!");
+			System.out.println("Sortim!!");
 		} catch (Exception ex) {
 			System.out.println("He petado 2!");
 			throw new Exception("Subo la ex", ex);
